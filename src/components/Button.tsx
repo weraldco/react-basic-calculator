@@ -11,7 +11,7 @@ const Button = ({
 }) => {
 	return (
 		<button
-			className={` w-24 h-24 rounded-xl flex items-center justify-center  active:-translate-y-5 duration-200 cursor-pointer shadow-sm shadow-neutral-400 ${
+			className={` w-24 h-24 rounded-xl flex items-center justify-center  active:-translate-y-5 duration-200 cursor-pointer  ${
 				className
 					? className
 					: 'bg-neutral-700 hover:bg-neutral-500 active:bg-neutral-600  '

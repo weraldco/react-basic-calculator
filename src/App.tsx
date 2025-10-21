@@ -75,9 +75,9 @@ function App() {
 	return (
 		<>
 			<main className="text-white w-full  h-screen flex items-center justify-center">
-				<section className="flex flex-col gap-4 bg-orange-400  p-4 rounded-xl">
+				<section className="flex flex-col gap-4 bg-neutral-800  p-6 rounded-3xl">
 					{/* Results */}
-					<div className="bg-neutral-300 rounded-xl px-5 pt-5">
+					<div className="bg-neutral-100 rounded-xl px-5 pt-5">
 						{/* History */}
 						<div className="font-extralight text-right text-neutral-500">
 							{history}
